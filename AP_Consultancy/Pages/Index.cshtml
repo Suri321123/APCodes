@@ -1,0 +1,169 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+    <div class="text-center" style="background: url(../images/bg3.jpg); height:700px;">
+            <h1 style="color:ActiveBorder;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:50px; padding-top:150px;">
+                AP Consultancy & Technology
+            </h1>
+            <p style="font-family: celiasthin; font-size:30px;">We care about your potential</p>
+        <br />
+            <h1 style="margin-bottom: 15px; color:aqua">Jobs . Services . Development</h1>
+            <br />
+        <br />
+            <div class="col-xl-12">
+                <div class="input_field">
+                    <a asp-page="/Contact" class="boxed-btn3-line" type="submit" style="border-radius:8px;">Contact Us</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    <div style="background-image:url(../images/section1.jpg);">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 mt-2 mb-4">
+                        <div class="text-area text-center">
+                            <h1>Things We Do!</h1>
+                        </div>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-10 offset-1">
+                                                <p>"Was very pleased with the job Deschutes Window Cleaning did on our windows. Thank you! Will definitely recommend them to anyone needing this service."</p>
+                                                <small>Kim F.</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <div class="carousel-item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-10 offset-1">
+                                                <p>"Our windows are crystal clear for the first time in a long time. Thank you, Kyle! Super friendly, efficient and proficient!"</p>
+                                                <small>Alice R.</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 mt-2 mb-4">
+                        <div class="text-area text-center">
+                            <h1>Customer Reviews</h1>
+                        </div>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-10 offset-1">
+                                                <p>"Was very pleased with the job Deschutes Window Cleaning did on our windows. Thank you! Will definitely recommend them to anyone needing this service."</p>
+                                                <small>Kim F.</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <div class="carousel-item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-10 offset-1">
+                                                <p>"Our windows are crystal clear for the first time in a long time. Thank you, Kyle! Super friendly, efficient and proficient!"</p>
+                                                <small>Alice R.</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="background-image:url(../images/section3.jpg)">
+            <center><h1 style="font-display:block;">Who we are</h1></center>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+                        
+                        <img src="~/images/person.jpg" />
+                        <p class="mb-4">IITian CSE</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+                       
+                        <img src="~/images/person.jpg" />
+                        <p class="mb-4">IITian CSE</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+                       
+                        <img src="~/images/person.jpg" />
+                        <p class="mb-4">IITian CSE</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+                        
+                        <img src="~/images/person.jpg" />
+                        <p class="mb-4">IITian CSE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="Estimate_area overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-5">
+                        <div class="Estimate_info">
+                            <h3>Call Us</h3>
+                            <p>
+                                Gives us a call, We will respond in our best way possible.
+                            </p>
+                            <a href="#" class="boxed-btn3">9116773135</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-7">
+                        <div class="form">
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <div class="input_field">
+                                            <input type="text" placeholder="Your name">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="input_field">
+                                            <input type="email" placeholder="Email">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-12">
+                                        <div class="input_field">
+                                            <textarea placeholder="Details About Product"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="input_field">
+                                            <button class="boxed-btn3-line" type="submit">Send</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
